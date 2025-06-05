@@ -5,6 +5,7 @@ const osPaths = {
   darwin: `${os.homedir()}/Library/Application Support/discord/settings.json`,
   win32: `${os.homedir()}/AppData/Roaming/discord/settings.json`,
   linux: `${os.homedir()}/.config/discord/settings.json`,
+  flatpak: `${os.homedir()}/home/deck/.var/app/com.discordapp.Discord/config/discord/settings.json`,
   // https://nodejs.org/api/process.html#process_process_platform
   // not fully tested os.platform() values
   // if one of these is your platform and the script doesn't work, please open an issue
